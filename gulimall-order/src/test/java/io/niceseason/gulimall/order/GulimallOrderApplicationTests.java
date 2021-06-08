@@ -13,15 +13,18 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
-@SpringBootTest
-@RunWith(SpringRunner.class)
+//@SpringBootTest
+//@RunWith(SpringRunner.class)
 public class GulimallOrderApplicationTests {
+/*
     @Autowired
     private OrderService orderService;
 
     @Autowired
     private CartFeignService cartFeignService;
+*/
 
+/*
     @Test
     public void contextLoads() {
 //        OrderEntity entity = new OrderEntity();
@@ -34,5 +37,6 @@ public class GulimallOrderApplicationTests {
         List<OrderItemVo> checkedItems = cartFeignService.getCheckedItems();
         System.out.println(checkedItems);
     }
+*/
 
 }

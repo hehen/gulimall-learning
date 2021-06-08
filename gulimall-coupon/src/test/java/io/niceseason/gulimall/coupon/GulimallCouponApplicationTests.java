@@ -4,17 +4,19 @@ import io.niceseason.gulimall.coupon.entity.CouponEntity;
 import io.niceseason.gulimall.coupon.service.CouponService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-//@SpringBootTest
+@SpringBootTest
 public class GulimallCouponApplicationTests {
     @Autowired
     private CouponService couponService;
 
+/*
     @Test
     public void contextLoads() {
 //        CouponEntity couponEntity = new CouponEntity();
@@ -26,6 +28,7 @@ public class GulimallCouponApplicationTests {
         couponEntity.setId(2L);
         couponService.updateById(couponEntity);
     }
+*/
 
     @Test
     public void testTime() {

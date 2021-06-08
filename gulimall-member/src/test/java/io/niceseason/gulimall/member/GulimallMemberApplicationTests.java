@@ -12,6 +12,7 @@ class GulimallMemberApplicationTests {
     @Autowired
     private MemberService memberService;
 
+/*
     @Test
     void contextLoads() {
         MemberEntity memberEntity = new MemberEntity();
@@ -19,5 +20,6 @@ class GulimallMemberApplicationTests {
         memberEntity.setUsername("小胜");
         memberService.save(memberEntity);
     }
+*/
 
 }

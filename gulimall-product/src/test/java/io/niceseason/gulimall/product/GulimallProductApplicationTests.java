@@ -1,3 +1,4 @@
+/*
 package io.niceseason.gulimall.product;
 
 import com.aliyun.oss.OSS;
@@ -119,3 +120,4 @@ public class GulimallProductApplicationTests {
     }
 
 }
+*/

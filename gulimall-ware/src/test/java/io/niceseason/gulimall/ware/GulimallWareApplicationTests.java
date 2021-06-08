@@ -1,3 +1,4 @@
+/*
 package io.niceseason.gulimall.ware;
 
 import io.niceseason.gulimall.ware.entity.WareInfoEntity;
@@ -19,3 +20,4 @@ class GulimallWareApplicationTests {
     }
 
 }
+*/
